@@ -1,0 +1,79 @@
+---
+title: Installing Custom Plugins
+description: Learn how to install, configure, and manage plugins on your Minecraft server.
+head:
+  - tag: title
+    content: QuackVault / Installing Custom Plugins
+---
+import { FileTree } from '@astrojs/starlight/components';
+import { Steps } from '@astrojs/starlight/components';
+
+
+Plugins are extensions for your Minecraft server made by third-party developers.
+
+They allow you to add new features and functionality to your server, such as custom join leave messages, anti-cheat systems, whole mini-games and much more.
+
+In this guide we'll walk you through finding, installing, and configuring plugins.
+
+### Finding Plugins
+You can find plugins for your server by visiting one of the distribution platforms below.
+
+[Bukkit](https://dev.bukkit.org/bukkit-plugins) / [Spigot](https://www.spigotmc.org/resources/categories/spigot.4/) / [Hangar](https://hangar.papermc.io) / [Modrinth](https://modrinth.com/plugins)
+
+Make sure to check if your server is compatible with the plugin you want to install first, by running `version` in your servers console.
+
+### Installing and updating plugins
+<Steps>
+
+    1. Download the `plugin.jar` file(s) that you want to install to your Minecraft server.
+
+    2. Locate the `plugins` folder in your servers root file directory.
+        <FileTree>
+
+        - cache/
+        - config/
+        - logs/
+        - **plugins/**
+            - geese-mzing.jar plugin you uploaded
+        - world/
+        - world_nether/
+        - world_the_end/
+
+        </FileTree>
+    3. Upload the `plugin.jar` file you downloaded to your servers `plugins` directory.
+
+    4. Restart your Minecraft server, and you're done.
+
+</Steps>
+
+### Configuring Plugins
+
+<Steps>
+
+    1. Locate the `plugins` folder in your servers root file directory.
+        <FileTree>
+
+        - cache/
+        - config/
+        - logs/
+        - **plugins/**
+            - geese-mzing/ plugin specific directory
+                - config.yml plugin specific configuration file
+            - hello-world/ plugin specific directory
+                - config.yml plugin specific configuration file
+            - geese-mzing.jar plugin you uploaded
+            - hello-world.jar plugin you uploaded
+        - world/
+        - world_nether/
+        - world_the_end/
+
+        </FileTree>
+
+    2. Locate the corresponding plugin specific directory in your servers `plugins` directory to the plugin you installed on your server; based on the plugins name.
+
+    3. Edit the contents of the `config.yml` file
+
+    4. Restart your server, and you're done. Congrats.
+
+
+</Steps>
