@@ -20,6 +20,11 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
-.vscode/
-.idea/
+# CodeSandbox
 .codesandbox/
+
+# JetBrains IDEs
+.idea/
+
+# Visual Studio Code
+.vscode/
