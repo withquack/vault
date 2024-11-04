@@ -6,7 +6,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "QuackVault",
-      favicon: "/quackhost.ico",
+      favicon: "/favicon.svg",
       description:
         "Welcome to the QuackHost knowledge vault, your go-to resource for all things Minecraft. Whether you're a seasoned server administrator, an avid player, or simply curious about the game, QuackVault has something for everyone.",
       logo: {
