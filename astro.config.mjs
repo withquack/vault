@@ -15,7 +15,7 @@ export default defineConfig({
         replacesTitle: true,
       },
       social: {
-        github: "https://github.com/quack-source/quack-vault",
+        github: "https://github.com/withquack/vault",
       },
       pagination: false,
       sidebar: [
