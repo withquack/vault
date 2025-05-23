@@ -18,6 +18,16 @@ export default defineConfig({
         github: "https://github.com/withquack/vault",
       },
       pagination: false,
+      head: [
+        {
+          tag: 'script',
+          attrs: {
+            defer: true,
+            src: 'https://cloud.umami.is/script.js',
+            'data-website-id': '62ae3417-a60d-4d17-af3e-7187e2c9d8b0',
+          },
+        },
+      ],
       sidebar: [
         {
           label: "Client Portal",
