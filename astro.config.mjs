@@ -14,7 +14,10 @@ export default defineConfig({
         dark: "./src/assets/mascot-dark-quackvault.webp",
         replacesTitle: true,
       },
-      customCss: ["@fontsource-variable/ibm-plex-sans"],
+      customCss: [
+        "@fontsource/ibm-plex-sans/400.css",
+        "@fontsource/ibm-plex-sans/600.css",
+      ],
       social: {
         github: "https://github.com/withquack/vault",
       },
