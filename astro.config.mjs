@@ -14,17 +14,18 @@ export default defineConfig({
         dark: "./src/assets/mascot-dark-quackvault.webp",
         replacesTitle: true,
       },
+      customCss: ["@fontsource-variable/ibm-plex-sans"],
       social: {
         github: "https://github.com/withquack/vault",
       },
       pagination: false,
       head: [
         {
-          tag: 'script',
+          tag: "script",
           attrs: {
             defer: true,
-            src: 'https://cloud.umami.is/script.js',
-            'data-website-id': '62ae3417-a60d-4d17-af3e-7187e2c9d8b0',
+            src: "https://cloud.umami.is/script.js",
+            "data-website-id": "62ae3417-a60d-4d17-af3e-7187e2c9d8b0",
           },
         },
       ],
