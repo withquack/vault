@@ -15,6 +15,7 @@ export default defineConfig({
         replacesTitle: true,
       },
       customCss: [
+        "./src/styles/custom.css",
         "@fontsource/ibm-plex-sans/400.css",
         "@fontsource/ibm-plex-sans/600.css",
       ],
